@@ -5,7 +5,7 @@ In this assignment you will write a computer simulation to answer the question "
  
 Suggested steps to starting this assignment
 --------------------------------------------
-1. Start Processing and make sure you are in Python mode
+1. Start a new Python 3 program on repl.it
 2. Now we need some code to simulate flipping a coin. Type the following code and run the program several times to check the output:
 ```python
 flip1 = random(1)<.5
@@ -28,8 +28,6 @@ print(flip1 == True and flip2 == True and flip3 == True)
     + increase `numFlips` by one
   + print `numFlips`
 
-Suggested steps to completing this assignment
-----------------------------------------------
 1. You should now have a program that counts how many flips it takes to get three heads in a row. Run the program a number of times to get a sense of what the average number of flips would be 
 2. Now we need to modify our program so that it will do many, many trials rather than just one. We'll start by creating a function definition `def oneTrial():`. Move all the code in the algorithm into the `oneTrial` definition. Change the last line to return `numFlips` instead of printing it.
 3. Underneath your function definition, initialize two new variables `sum` and `count` to zero
