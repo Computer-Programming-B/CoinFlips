@@ -18,14 +18,14 @@ print(flip1 == True and flip2 == True and flip3 == True)
 ```
 5. Three heads in a row is unusual. You will probably need to run the program 20 or 30 times until it prints `True`
 6. Now, code the following algorithm to count how many flips it takes to get 3 heads in a row:
-  + Initialize three variables `flip1`, `flip2` and `flip3` to be randomly `True` or `False`
-  + Initialize another variable `numFlips` to 3
-  + Write a `while` loop: `while not(flip1 == True and flip2 == True and flip3 == True):`
-  + In the while loop:
-    + assign  `flip1` the value of `flip2`
-    + assign `flip2` the value of `flip3`
-    + assign  `flip3`  a new random value that is a 50/50 chance of `True` or `False`
-    + increase `numFlips` by one
+   + Initialize three variables `flip1`, `flip2` and `flip3` to be randomly `True` or `False`
+   + Initialize another variable `numFlips` to 3
+   + Write a `while` loop: `while not(flip1 == True and flip2 == True and flip3 == True):`
+   + In the while loop:
+      + assign  `flip1` the value of `flip2`
+      + assign `flip2` the value of `flip3`
+      + assign  `flip3`  a new random value that is a 50/50 chance of `True` or `False`
+      + increase `numFlips` by one
   + print `numFlips`
 1. You should now have a program that counts how many flips it takes to get three heads in a row. Run the program a number of times to get a sense of what the average number of flips would be 
 2. Now we need to modify our program so that it will do many, many trials rather than just one. We'll start by creating a function definition `def oneTrial():`. Move all the code in the algorithm into the `oneTrial` definition. Change the last line to return `numFlips` instead of printing it.
