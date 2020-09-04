@@ -26,11 +26,11 @@ print(flip1 == True and flip2 == True and flip3 == True)
       + assign `flip2` the value of `flip3`
       + assign  `flip3`  a new random value that is a 50/50 chance of `True` or `False`
       + increase `numFlips` by one
-  + print `numFlips`
-1. You should now have a program that counts how many flips it takes to get three heads in a row. Run the program a number of times to get a sense of what the average number of flips would be 
-2. Now we need to modify our program so that it will do many, many trials rather than just one. We'll start by creating a function definition `def oneTrial():`. Move all the code in the algorithm into the `oneTrial` definition. Change the last line to return `numFlips` instead of printing it.
-3. Underneath your function definition, initialize two new variables `sum` and `count` to zero
-4. Write a loop `while count < 1000:` Add code in the loop to:
-  + Increase `sum` by the value returned by `oneTrial()`
-  + Increase `count` by 1
-5. Print `sum` divided by `count`. Check your result against [solution on quora.com](https://www.quora.com/What-is-the-expected-number-of-coin-flips-until-you-get-3-heads-in-a-row). Adjust the number of trials from 1000 until you get a stable result.
+   + print `numFlips`
+7. You should now have a program that counts how many flips it takes to get three heads in a row. Run the program a number of times to get a sense of what the average number of flips would be 
+8. Now we need to modify our program so that it will do many, many trials rather than just one. We'll start by creating a function definition `def oneTrial():`. Move all the code in the algorithm into the `oneTrial` definition. Change the last line to return `numFlips` instead of printing it.
+9. Underneath your function definition, initialize two new variables `sum` and `count` to zero
+10. Write a loop `while count < 1000:` Add code in the loop to:
+   + Increase `sum` by the value returned by `oneTrial()`
+   + Increase `count` by 1
+11. Print `sum` divided by `count`. Check your result against [solution on quora.com](https://www.quora.com/What-is-the-expected-number-of-coin-flips-until-you-get-3-heads-in-a-row). Adjust the number of trials from 1000 until you get a stable result.
