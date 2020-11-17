@@ -17,7 +17,7 @@ print(flip1)
 ```python
 print(flip1 == True and flip2 == True and flip3 == True)
 ```
-5. Three heads in a row is unusual. You will probably need to run the program 20 or 30 times until it prints `True`
+5. Three heads in a row is unusual. You will might need to run the program 20 or 30 times until it prints `True`
 6. Now, code the following algorithm to count how many flips it takes to get 3 heads in a row:
    + Initialize three variables `flip1`, `flip2` and `flip3` to be randomly `True` or `False`
    + Initialize another variable `numFlips` to 3
