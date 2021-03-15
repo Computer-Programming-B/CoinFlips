@@ -5,7 +5,7 @@ In this assignment you will write a computer simulation to answer the question "
  
 Suggested steps to starting this assignment
 --------------------------------------------
-1. Start a new Python 3 program on repl.it
+1. Start a new Python 3 program on your PC or repl.it
 2. Now we need some code to simulate flipping a coin. Type the following code and run the program several times to check the output:
 ```python
 from random import *
