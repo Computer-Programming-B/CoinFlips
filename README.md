@@ -1,7 +1,7 @@
 On average, how many times do you need to flip a coin to get three heads in a row?
 ==================================================================================
 
-In this assignment you will write a computer simulation to answer the question "On average, how many times do you need to flip a coin to get three heads in a row?" Simulations are one way to solve problems that would otherwise be too complicated, expensive, time consuming, dangerous or even impossible to calculate or perform in real life. You can check your answer by comparing it to the this [solution on quora.com](https://www.quora.com/What-is-the-expected-number-of-coin-flips-until-you-get-3-heads-in-a-row). You may find slides 196-216 of the [slide presentation](https://docs.google.com/presentation/d/1rICcmNbnGYsB-cV_6EatPyzcOS2sId80Jh2kayUzm4Q/edit#slide=id.ga2b2b98a27_0_165) helpful in completing this assignment.
+In this assignment you will write a computer simulation to answer the question "On average, how many times do you need to flip a coin to get three heads in a row?" Simulations are one way to solve problems that would otherwise be too complicated, expensive, time consuming, dangerous or even impossible to calculate or perform in real life. You can check your answer by comparing it to the this [solution on quora.com](https://www.quora.com/What-is-the-expected-number-of-coin-flips-until-you-get-3-heads-in-a-row). You may find slides 196-225 of the [slide presentation](https://docs.google.com/presentation/d/1rICcmNbnGYsB-cV_6EatPyzcOS2sId80Jh2kayUzm4Q/edit#slide=id.ga2b2b98a27_0_165) helpful in completing this assignment.
  
 Suggested steps to starting this assignment
 --------------------------------------------
